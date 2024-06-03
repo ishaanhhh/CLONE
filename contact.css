@@ -1,0 +1,53 @@
+
+body{
+
+    background-image: url(/GoD/bg5.jpg);
+    background-size: cover;
+}
+
+h1 {
+    margin: 0 0 20px;
+    font-weight: 400;
+    color: white;
+    }
+
+    p {
+        margin: 0 0 5px;
+        }
+
+.main-block{
+
+    display:flex;
+    margin-top:150px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+
+
+textarea{
+    background-color: transparent;
+}
+
+button{
+
+    background-color: transparent;
+    color: white;
+    border: 0;
+    position: absolute;
+    right: 745px;
+    margin-top: 10px;
+
+}
+
+input{
+    background-color: transparent;
+    color: rgb(49, 162, 237);
+}
+
+/* .info{
+ 
+        
+
+} */

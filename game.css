@@ -1,0 +1,145 @@
+body{
+
+    background-color: black;
+    background-image: url(/GoD/10.jpg);
+    background-size: cover;
+}
+
+
+#logo{
+
+    height: 100px;
+    width: 200px;
+    /* background-color: blueviolet; */
+    display: inline-block;
+    
+
+
+}
+h1{
+
+    color: white;
+    position: absolute;
+    left: 650px;
+    top: 0;  
+    text-shadow: 0 0 5px white;  
+    animation-name: slideleft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    
+}h1:hover{
+    text-shadow: 0 0 5px white,0 0 25px white, 0 0 50px white, 0 0 100px white, 0 0 200px white;
+}
+
+.home{
+    position: absolute;
+    right: 20px;
+    height: 100px;
+    width: 100%;
+    top: 120px;
+    /* background-color: aqua; */
+    display: inline-block;
+    z-index: 1;
+     text-decoration: none;
+    color: white;
+    margin-left: 263px;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;    
+    text-shadow: 0 0 5px white, 0 0 25px  white;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 263px;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;    
+    text-shadow: 0 0 5px white, 0 0 25px  white; 
+                                                                                              
+
+    /* height: 400px;
+    width: 500px; */
+}
+
+a:hover{
+    transform: translateY(-10px);
+    text-shadow: 0 0 5px white,0 0 25px white, 0 0 50px white, 0 0 100px white, 0 0 200px white;
+}
+
+video{
+    box-shadow: 0 0 45px black,0 0 25px black;
+}
+
+#vid1{
+
+    position: absolute;
+    top: 200px;
+    left: 100px;
+   
+}
+
+#vid2{
+
+    position: absolute;
+    top: 200px;
+    right: 100px;
+  
+}
+
+#click{
+    color: white;
+    position: absolute;
+    top: 350px;
+    font-size: 50px;
+   
+
+}
+
+@keyframes slideleft {
+    from {
+        transform: translateY(-100px);
+        /* transform: translateY(-10px); */
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+
+/* #theatre{
+
+    color: red;
+    position: absolute;
+    top: 260px;
+    right: 300px;
+    font-size: 100px;
+    text-shadow: 0 0 5px red, 0 0 25px  red; 
+} */
+
+
+button{
+
+    position: absolute;
+    top: 260px;
+    right: 300px;
+    font-size: 100px;
+    background-color: transparent;
+    border: 0;
+    color: red;
+}
+
+#vid3{
+
+    position: absolute;
+    top: 440px;
+    right: 500px;
+    box-shadow: 0 0 45px black,0 0 25px black;
+
+}
